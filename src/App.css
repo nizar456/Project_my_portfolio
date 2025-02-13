@@ -95,7 +95,7 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 11%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -107,7 +107,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
     opacity: 1;
-    color: #00ffdd  
+    color: #c300ff  
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -281,4 +281,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner button:hover svg {
   margin-left: 25px;
+}
+.banner img {
+  animation: updown 3s linear infinite;
+  display: block;
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+}
+@keyframes updown {
+  0% {
+      transform: translateY(-80px);
+  }
+  50% {
+      transform: translateY(-60px);
+  }
+  100% {
+      transform: translateY(-80px);
+  }
+}
+@keyframes updown {
+  0% {
+      transform: translateY(-80px);
+  }
+  50% {
+      transform: translateY(-60px);
+  }
+  100% {
+      transform: translateY(-80px);
+  }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
 }

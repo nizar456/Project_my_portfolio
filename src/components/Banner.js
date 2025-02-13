@@ -11,7 +11,8 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Java Programmer", "Back End Developer",
+                      "Database Administrator" ];
   const period = 2000;
 
   useEffect(() => {
@@ -59,19 +60,24 @@ export const Banner = () => {
               <div className={isVisible ? 
               "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Nizar`} 
+                <h1>{`Hi! I'm Nizar `} 
                     <span className="txt-rotate" dataPeriod="1000"
-                     data-rotate='[ "Web Developer", "Web Designer",
-                      "UI/UX Designer" ]'>
+                     data-rotate='[ "Java Programmer", "Back End Developer",
+                      "Database Administrator" ]'>
                         <span className="wrap">{text}</span>
                     </span>
                 </h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing 
-                    and typesetting industry. Lorem Ipsum has been the
-                     industry's standard dummy text ever since the 
-                     1500s, when an unknown printer took a galley of 
-                     type and scrambled it to make a type specimen 
-                     book.
+                  <p>Second-year Computer Engineering student,
+                     passionate about problem-solving, 
+                     software development, and system performance
+                      optimization. I have expertise not only in 
+                      programming languages but also in design 
+                      languages and everything related to data 
+                      management and analysis, with a deep focus 
+                      on the design and evolution of solutions. 
+                      Driven by a strong willingness to learn,
+                       I constantly strive to develop my skills 
+                       and take on new challenges.
                   </p>
                   <button onClick={() => console.log('connect')}>
                     Let’s Connect <ArrowRightCircle size={25} />
