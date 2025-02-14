@@ -3,7 +3,12 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/car_rental.jpg";
 import projImg2 from "../assets/img/Extra_hours.jpg";
 import projImg3 from "../assets/img/image_editing.jpg";
+import projImg4 from "../assets/img/claculator.jpg";
+import projImg5 from "../assets/img/1337_PRJ.png";
+import projImg6 from "../assets/img/FACE_CHECK.jpg";
+import projImg7 from "../assets/img/ping_pong.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -26,31 +31,35 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "polynomial calculator",
+      description: "C++",
+      imgUrl: projImg4,
     },
   ];
   const professionalprojects = [
     {
-
-    }
-  ]
+        title: "Education System Startup",
+        description: "PHP & MySQL",
+        imgUrl: projImg2,
+      },
+      {
+        title: "1337 RESTaurant",
+        description: "Bootstrap & MySQL",
+        imgUrl: projImg5,
+      },
+  ];
   const personalprojects = [
     {
-
-    }
-  ]
+        title: "Face Recognition",
+        description: "Python",
+        imgUrl: projImg6,
+      },
+      {
+        title: "Ping Pong Game",
+        description: "C",
+        imgUrl: projImg7,
+      },
+  ];
 
   return (
     <section className="project" id="projects">
