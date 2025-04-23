@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/tanjiro.png";
+import headerImg from "../assets/img/PDP_no_bk.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -79,9 +79,6 @@ export const Banner = () => {
                        I constantly strive to develop my skills 
                        and take on new challenges.
                   </p>
-                  <button onClick={() => console.log('connect')}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
               </div>}
             </TrackVisibility>
           </Col>
