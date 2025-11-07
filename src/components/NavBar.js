@@ -57,7 +57,7 @@ export const NavBar = () => {
                 <a href="https://www.instagram.com/nizar_fikhane/">
                 <img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='https://www.linkedin.com/in/nizar-fikhan-9221b9304/'>
+              <HashLink to='https://www.linkedin.com/in/nizar-fikhane-9221b9304/'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>
